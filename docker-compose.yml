@@ -1,0 +1,9 @@
+version: '2.1'
+
+services:
+  portfolio:
+    image: portfolio
+    build: .
+    ports:
+      - 3000:3000
+    command: yarn start      
